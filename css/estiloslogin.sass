@@ -1,0 +1,111 @@
+$naranja : #ff851b
+
+*
+	margin: 0
+	padding: 0
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+body
+	background: url(../img/universidades2.jpg)
+	
+	/*imagen abarca exactamente el 100% de la pantalla*/
+	-webkit-background-size: cover
+	background-size: cover
+
+.contenedor-form
+	/*Para que el objeto este dentro de la seccion - relative*/
+	position: relative
+	background: rgba(0,0,0,.7)
+	width: 100%
+	max-width: 500px
+	margin: 50px auto
+	color: #fff
+	border-radius: 5px
+	/*padding: 50px */
+
+
+	.toggle
+		/*se posiciona en la esquina Derecha*/
+		position: absolute
+		top: 10px
+		rigth: 7px
+		width: 100px
+		heigth: 30px
+		font-size: 14px
+		line-height: 25px
+		text-align: center
+		border-top: 2px solid $naranja
+		border-bottom: 2px solid $naranja
+		margin-left: 340px
+		transition: all .5s ease
+		cursor: pointer
+
+		span
+			letter-spacing: 0.5px
+		&:hover
+			border-top: 2px solid #0075D9
+			border-bottom: 2px solid #0075D9
+
+	h2
+		margin: 15px 0 28px 0
+		font-size: 30px
+		font-weight: 400
+		line-height: 1
+
+	input[type="text"], input[type="password"], input[type="email"],
+		outline: none
+		/*Vuelve transparente los cuadros de texto*/
+		background: rgba(0,0,0,.5)
+		diplay: block
+		width: 100%
+		padding: 10px 15px
+		color: #fff
+		border: none
+		border-radius: 2px
+		border-bottom: 1px solid $naranja
+		font-size: 14px
+		font-weight: normal
+		margin: 0 0 20px 0
+		transition: all .5s ease
+
+		&:focus
+			border-bottom: 1px solid #0075D9
+
+	input[type="submit"]
+		background: $naranja
+		color: #fff
+		border: none
+		width: 100%
+		padding: 10px 0
+		font-weight: normal
+		letter-spacing: 1px
+		font-size: 16px
+		cursor: pointer
+		transition: all .5s ease
+		
+		&:hover
+			background: rgba(0,117,217,0.7)
+
+	.reset-password
+		background: rgba(0,117,217,0.7)
+		width: 100%
+		padding: 15px 0
+		text-align: center
+		border-bottom-right-radius: 5px
+		border-bottom-left-radius: 5px
+
+		a
+			color: #fff
+			text-decoration: none
+			font-size: 16px
+	
+	.formulario
+		padding: 40px
+		/*Para ocultar */
+		display: none
+		
+		/*Para mostrar solo el formulario 1 y ocultar el 2*/
+		&:nth-child(2)
+			display: block

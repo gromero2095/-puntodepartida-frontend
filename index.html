@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Estilos Personalizados-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Awesson -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+
+    <link href="https://file.myfontastic.com/76aAUUiH6gyi3SsUtmWZEQ/icons.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+    <!-- CABECERA PRINCIPAL -->
+
+
+    <section id="cover">
+      
+      <div id="cover-texto">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12" style="text-align: center;">
+              <h1 class="display-3">Punto de Partida</h1>
+              <p>¿Estas Listo para dar el siguiente paso?</p>
+              <form action="" class="form-inline justify-content-center">
+                <div class="form-group">
+                  <label class="sr-only"> Buscar Universidad </label>
+                  <input type="text" class="form-control form-control-lg" placeholder="Buscar Universidades">
+                </div>
+                 <div class="form-group">
+                  <label class="sr-only"> Buscar carrera </label>
+                  <input type="text" class="form-control form-control-lg" placeholder="Buscar Carreras">
+                </div>
+
+                <button type="submit" class="btn btn-success btn-lg">Buscar</button>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- BARRA DE MENU -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="barra-menu">
+    <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quienes Somos</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="universidades.html">Universidades</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="carreras.html">Carreras</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Compara Ya</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#acerca-de">Noticias</a>
+          </li>
+
+          <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        -->
+         <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        -->
+        </ul>
+        <form class="form-inline my-2 my-lg-0" id="formulario">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+           
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" value="abrir ventana" onclick="abrir()">Iniciar Sesion</button>
+           
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Registrate</button>
+        </form>
+    </div>
+</nav>
+
+
+<!-- CARRUSEL -->
+
+  <section id="carrusel">
+    
+      <div id="carrusel-home" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carrusel-home" data-slide-to="0" class="active"></li>
+          <li data-target="#carrusel-home" data-slide-to="1"></li>
+          <li data-target="#carrusel-home" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/slider1.jpg" alt="Estudiantes">
+            <div class="carousel-caption">
+              <h3>Estudiantes Pre Universitarios</h3>
+              <p>Fotografia Profesional</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slider2.jpg" alt="Estudiantes 2">
+             <div class="carousel-caption">
+              <h3>Trabaja en Equipo</h3>
+              <p>Fotografia Profesional</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slider3.jpg" alt="Estudiantes">
+             <div class="carousel-caption">
+              <h3>Empieza Ahora</h3>
+              <p>Fotografia Profesional</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carrusel-home" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carrusel-home" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+
+  </section>
+
+
+  <!-- ACERCA DEEEEEE -->
+
+
+ <section id="acerca-de">
+      <div class="contenido-seccion">
+        <div class="container">
+          <div class="col-md-6">
+            <div class="texto-acerca-de">
+              <h3>Acerca de PuntodePartida</h3>
+              <p class="lead" align="justify">
+                El contenido de la pag web y todo lo que se ira informando en el transcurso del tiempo.
+              </p>
+              <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam tenetur expedita nostrum, vel, deserunt nam? Nobis iusto voluptate, suscipit vitae optio, aut quas ad similique sequi vero beatae totam sapiente.</p>
+                <h3></h3>
+                <a href="#" class="btn btn-sm btn-secondary-outline">¿Quienes Somos?</a>
+                <a href="#" class="btn btn-sm btn-secondary-outline">¿Porque Nosotros?</a>
+                <a href="#" class="btn btn-sm btn-secondary-outline">¿Porque estudiar?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+<!-- COMENTARIOS -->
+
+  <section id="empresa">
+    <div class="contenido-seccion">
+      <div class="container">
+        <h2>Preguntas mas Frecuentes </h2>
+        <p class="lead" align="justify">Vamos a revisar la prueba para comprobar el diseño de la pagina final</p>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card-group">
+              
+              <div class="card-group">
+                  
+                  <div class="card">
+                     <div class="card-body">
+                      <h4 class="card-title">Comentario Nº1</h4>
+                      <h6 class="card-subtitle">¿Cuentan con clases Virtuales?  </h6>
+                    </div>
+                    <img class="card-img-top" src="img/usuario.jpg" alt="">
+
+                    <div class="card-body">
+                      <p class="card-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi facilis velit, quidem numquam! Consectetur voluptatum quasi sapiente reiciendis.</p>
+                      <button class="btn btn-primary" data-toogle="modal" data-target=~"#myModal">Ver más</button>
+
+                    </div>
+                  </div>
+
+                  <div class="card">
+                     <div class="card-body">
+                      <h4 class="card-title">Comentario Nº2</h4>
+                      <h6 class="card-subtitle">¿Con que tipos de Becas Cuentan?  </h6>
+                    </div>
+                    <img class="card-img-top" src="img/usuario.jpg" alt="">
+
+                    <div class="card-body">
+                      <p class="card-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi facilis velit, quidem numquam! Consectetur voluptatum quasi sapiente reiciendis.</p>
+                      <button class="btn btn-primary" data-toogle="modal" data-target=~"#myModal">Ver más</button>
+
+                    </div>
+                  </div>
+                      
+                     <div class="card">
+                       <div class="card-body">
+                        <h4 class="card-title">Comentario Nº3</h4>
+                        <h6 class="card-subtitle">¿Tienen alguna sede en Arequipa?  </h6>
+                      </div>
+                      <img class="card-img-top" src="img/usuario.jpg" alt="">
+
+                      <div class="card-body">
+                        <p class="card-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi facilis velit, quidem numquam! Consectetur voluptatum quasi sapiente reiciendis.</p>
+                        <button class="btn btn-primary" data-toogle="modal" data-target=~"#myModal">Ver más</button>
+
+                      </div>
+                    </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ACERCA DEEEEEE -->
+
+ 
+
+<footer class="footer">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 class="title">Suscribete</h2>
+          <form action="./">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"> 
+                  <i class="fas fa-check"></i>
+                </button>
+              </span>
+            </div>
+            <p>Recibe Nuestras actualizaciones directamente a tu correo Electronico</p>
+          </form>
+        </div>
+        <div class="col-md-3">
+          <h2 class="title">Ultimas Entradas</h2>
+            <ul>
+              <li><a href="#">Titulo de Prueba</a></li>
+              <li><a href="#">Titulo de Prueba</a></li>
+              <li><a href="#">Titulo de Prueba</a></li>
+              <li><a href="#">Titulo de Prueba</a></li>
+              <li><a href="#">Titulo de Prueba</a></li>
+              <li><a href="#">Titulo de Prueba</a></li>
+            </ul>
+
+        </div>
+        <div class="col-md-3">
+          <h2 class="title">Mapa de Sitio</h2>
+           <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="#">Quienes Somos</a></li>
+              <li><a href="universidades.html">Universidades</a></li>
+              <li><a href="carreras.html">Carreras</a></li>
+              <li><a href="#">Compara Ya</a></li>
+              <li><a href="#">Noticias</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+          <h2 class="title">Contactanos: </h2>
+              <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+               </div>
+               <p><strong>©Punto de Partida</strong></p>
+               <p>Todos los derechos reservados</p>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+
+
+</html>
