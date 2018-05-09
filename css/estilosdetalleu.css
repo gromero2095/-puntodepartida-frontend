@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz");
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1px; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+html, body {
+  height: 100%; }
+
+img {
+  max-width: 100%; }
+
+/*      Cover       */
+.contenido-seccion {
+  padding: 5rem 0;
+  /*       ACERCA DE      */ }
+
+#acerca-de {
+  background: url("../img/uni.jpg") center center no-repeat;
+  background-size: cover;
+  height: 60%; }
+  #acerca-de .texto-acerca-de {
+    background: rgba(0, 0, 0, 0.8);
+    color: black;
+    padding: 500px; }
+
+#contenido {
+  padding: 60px; }
+  #contenido #informacion #myTabContent {
+    padding-top: 50px;
+    padding-left: 10px; }
+    #contenido #informacion #myTabContent #rector {
+      padding-top: 20px; }
+
+#empresa .card h1, #empresa .card h2, #empresa .card h3, #empresa .card h4, #empresa .card h5, #empresa .card h6 {
+  text-align: center; }
+
+/***** PAGINADOR ******/
+.contenedor-form {
+  /*Para que el objeto este dentro de la seccion - relative*/
+  position: relative;
+  background: #2FD5B1;
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  color: #fff;
+  border-radius: 5px;
+  /*padding: 50px */ }
+  .contenedor-form h2 {
+    margin: 15px 0 28px 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center; }
+  .contenedor-form #textarea {
+    padding: 100px; }
+  .contenedor-form input[type="text"], .contenedor-form input[type="password"], .contenedor-form input[type="email"], .contenedor-form textarea, .contenedor-form .custom-select {
+    outline: none;
+    /*Vuelve transparente los cuadros de texto*/
+    background: white;
+    diplay: block;
+    width: 100%;
+    padding: 10px 15px;
+    color: #666;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1px solid #53A288;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+    .contenedor-form input[type="text"]:focus, .contenedor-form input[type="password"]:focus, .contenedor-form input[type="email"]:focus, .contenedor-form textarea:focus, .contenedor-form .custom-select:focus {
+      border-bottom: 1px solid #20A217; }
+  .contenedor-form input[type="submit"] {
+    background: #53A288;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+    .contenedor-form input[type="submit"]:hover {
+      background: #53A258; }
+  .contenedor-form .formulario {
+    padding: 40px; }
+
+/*       FOOTER      */
+.footer {
+  background-color: #272d34;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  max-width: 100%;
+  text-align: center; }
+  .footer .row .col-md-3 .title {
+    font-size: 1.6em;
+    padding-bottom: 8px; }
+  .footer .row .col-md-3 .social a {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    color: #777;
+    text-decoration: none; }
+  .footer .row .col-md-3 .social #facebook:hover {
+    background: #3451E5;
+    color: white; }
+  .footer .row .col-md-3 .social #instagram:hover {
+    background: #CD45D1;
+    color: white; }
+  .footer .row .col-md-3 .social #twitter:hover {
+    background: #21D6C6;
+    color: white; }
+  .footer .row p {
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 8px; }
+  .footer .row ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-right: 30px; }
+    .footer .row ul li a {
+      color: #999;
+      display: block;
+      text-decoration: none; }

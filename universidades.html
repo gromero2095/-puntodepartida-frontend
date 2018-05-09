@@ -72,14 +72,16 @@
         -->
         </ul>
          <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> 
+           
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> 
                   <i class="fas fa-search"></i>
                 </button>
-          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-         
+         <!--
            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesion</button>
          
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Registrate</button>
+          -->
         </form>
     </div>
 </nav>
@@ -157,7 +159,7 @@
 
                     <div class="card-body">
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi facilis velit, quidem numquam! Consectetur voluptatum quasi sapiente reiciendis.</p>
-                      <button class="btn btn-primary" data-toogle="modal" data-target=~"#myModal">Ver más</button>
+                      <button class="btn btn-primary" id="ver-mas" data-toogle="modal" data-target=~"#myModal"><a href="detalle-universidad.html" >Ver más</a></button>
 
                     </div>
                   </div>
@@ -230,7 +232,6 @@
 <!-- ACERCA DEEEEEE -->
 
  
-
 <footer class="footer">
   <div class="footer-main">
     <div class="container">
@@ -241,7 +242,7 @@
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Email">
               <span class="input-group-btn">
-                <button class="btn btn-default" type="button"> 
+                <button class="btn btn-success" type="button"> 
                   <i class="fas fa-check"></i>
                 </button>
               </span>
@@ -264,10 +265,10 @@
         <div class="col-md-3">
           <h2 class="title">Mapa de Sitio</h2>
            <ul>
-              <li><a href="#">Inicio</a></li>
+              <li><a href="index.html">Inicio</a></li>
               <li><a href="#">Quienes Somos</a></li>
-              <li><a href="#">Universidades</a></li>
-              <li><a href="#">Carreras</a></li>
+              <li><a href="universidades.html">Universidades</a></li>
+              <li><a href="carreras.html">Carreras</a></li>
               <li><a href="#">Compara Ya</a></li>
               <li><a href="#">Noticias</a></li>
             </ul>
@@ -275,9 +276,9 @@
         <div class="col-md-3">
           <h2 class="title">Contactanos: </h2>
               <div class="social">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
                </div>
                <p><strong>©Punto de Partida</strong></p>
                <p>Todos los derechos reservados</p>

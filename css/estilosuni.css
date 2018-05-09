@@ -33,6 +33,10 @@ img {
 #empresa .card h1, #empresa .card h2, #empresa .card h3, #empresa .card h4, #empresa .card h5, #empresa .card h6 {
   text-align: center; }
 
+#empresa .card a {
+  color: white;
+  text-decoration: none; }
+
 /***** PAGINADOR ******/
 /*       FOOTER      */
 .footer {
@@ -57,6 +61,15 @@ img {
     text-align: center;
     color: #777;
     text-decoration: none; }
+  .footer .row .col-md-3 .social #facebook:hover {
+    background: #3451E5;
+    color: white; }
+  .footer .row .col-md-3 .social #instagram:hover {
+    background: #CD45D1;
+    color: white; }
+  .footer .row .col-md-3 .social #twitter:hover {
+    background: #21D6C6;
+    color: white; }
   .footer .row p {
     color: #777;
     font-size: 0.9em;

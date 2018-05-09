@@ -38,8 +38,6 @@ img {
 /** BARRA DE MENU**/
 #barra-menu {
   /*       ACERCA DE      */ }
-  #barra-menu #navbarSupportedContent #formulario button a {
-    text-decoration: none; }
 
 #acerca-de {
   background: url("../img/acercade2.png") center center no-repeat;
@@ -75,6 +73,15 @@ img {
     text-align: center;
     color: #777;
     text-decoration: none; }
+  .footer .row .col-md-3 .social #facebook:hover {
+    background: #3451E5;
+    color: white; }
+  .footer .row .col-md-3 .social #instagram:hover {
+    background: #CD45D1;
+    color: white; }
+  .footer .row .col-md-3 .social #twitter:hover {
+    background: #21D6C6;
+    color: white; }
   .footer .row p {
     color: #777;
     font-size: 0.9em;
